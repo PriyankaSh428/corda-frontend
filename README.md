@@ -1,18 +1,22 @@
-# Frontend to a Corda Thingy
+# Corda Frontend Harrison Bank
 
 ### Introduction: 
 - This shows the Frontend of **Harrison Bank**.
-- Front end of DGk Bank is for requesting and issuing tokens in Corda Network.
-- Designed for the Administrators of the organizations
+- Front end of Harrison Bank is for requesting and issuing tokens in Corda Network.
+- Designed for the Administrators of the organizations.
 - This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ### Prerequisite
-NodeJS: https://nodejs.org/en/
+NodeJS: 
+```
+https://nodejs.org/en/
+```
 
 ### Getting Started:
-- Run `npm install` once to install the dependencies.
+- Once you install the dependencies.
+- Run `npm install`.
 - Run npm start.
-- Open  in localhost to vie in browser
+- Open  `in localhost` to view in browser. 
 
 ### To Run the command:
  To run the command you have to follow :
@@ -59,7 +63,7 @@ In the project directory, you can run:
  - Each endpoint of the 'REST' Api connected the Corda Node is displayed with its corresponding response.
  - The post endpoint for requesting asset issuance also displays a form to input/submit the request.
  - Any error from requests will appear in the console.
- ![Diagram](corda.frontend.png)
+ ![Diagram](cordafrontend.png)
 
 
 ### Requests

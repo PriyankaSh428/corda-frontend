@@ -15,7 +15,7 @@ https://nodejs.org/en/
 ### Getting Started:
 - Once you install the dependencies.
 - Run `npm install`.
-- Run npm start.
+- Run `npm start`.
 - Open  `in localhost` to view in browser. 
 
 ### To Run the command:
@@ -23,16 +23,15 @@ https://nodejs.org/en/
  
  #### Steps:
 
-- Runs the app in the development mode.<br>
-- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Runs the app in the development mode.<br>- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 - The page will reload if you make edits.<br>
 - You will also see any lint errors in the console.
 
 
 ### Deployment:
 - Build the app for production to the `build` folder.<br>
-- It correctly bundles React in production mode and optimizes the build for the best performance.
-- The build is minified and the filenames include the hashes.<br>
+- It correctly bundles `React` in production mode and optimizes the build for the best performance.
+- The `build` is minified and the filenames include the hashes.<br>
 - Your app is ready to be deployed!
  
 
@@ -60,15 +59,12 @@ In the project directory, you can run:
 
  ### Appearance:
  
- - Each endpoint of the 'REST' Api connected the Corda Node is displayed with its corresponding response.
+ - Each endpoint of the 'REST API' connected the Corda Node is displayed with its corresponding response.
  - The post endpoint for requesting asset issuance also displays a form to input/submit the request.
  - Any error from requests will appear in the console.
+ 
+ 
  ![Diagram](cordafrontend.png)
-
-
-### Requests
-- The final requests made to each endpoint (And the functions that stuff.js will call) are specified in endpoints.js.
-- There are also a couple of constructors for the data payloads that will head to these requests. 
 
 
 ### Credits: 
